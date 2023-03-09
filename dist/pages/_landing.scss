@@ -1,0 +1,54 @@
+.banner{
+    padding: 5rem 0;
+    background-image: url('../images/banner.jpeg');
+    background-size: cover;
+    object-fit: cover;
+    background-position-x: -80%;
+    
+    height: 50vh;
+    &__wrapper{
+        .banner__first{
+            padding-top: 5rem;
+            margin:0 3rem;
+         
+           
+           h1 {
+           
+            font-size: 5rem;
+            font-weight: 600;
+            // padding: 5rem 2rem;
+            width: 30rem;
+            color: darken($clr-green, 10);
+            
+           }
+
+           button{
+
+            margin-top: 3rem;
+           }
+    
+          
+           .btn{
+            background-color: transparent;
+            border: 1px solid $clr-green;
+            padding: 1.5rem 1.5rem;
+            border-radius: 5rem;
+            font-size: 2rem;
+            font-weight: bold;
+           
+            &:hover{
+                background-color: hsla(0,0%,100%,.12);
+                border: 1px solid black;
+                cursor: pointer;
+            }
+    
+           }
+    
+    
+           
+        }
+
+    
+    }
+    }
+    
